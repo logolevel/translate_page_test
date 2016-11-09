@@ -287,13 +287,11 @@ a {
 /*reviews*/
 .reviews {
   background-color: #dcdcdc;
-  height: 1325px; }
+  padding-bottom: 50px; }
 
 .reviews__item {
-  width: 48%;
-  float: left; }
-  .reviews__item--first {
-    margin-right: 4%; }
+  width: 100%;
+  margin-bottom: 30px; }
   .reviews__item-info {
     text-align: left;
     width: 220px;
@@ -339,6 +337,46 @@ a {
 .rating.vote-cast .star, .rating:hover .star {
   color: #ffd700; }
 
+.btn--yellow-redisign {
+  color: #2b569a;
+  border: 3px solid #2b569a;
+  margin-bottom: 50px; }
+
+/*contacts*/
+.icon-c {
+  display: inline-block; }
+
+.contacts__item {
+  color: #2b569a;
+  background-color: #fff;
+  padding: 25px 0 35px;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 30px;
+  height: 230px; }
+  .contacts__item--middle {
+    background-color: #898989;
+    color: #fff; }
+
+.contacts__title {
+  font-size: 18px;
+  font-family: "Arial Bold", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px 0 15px; }
+
+.contacts__line {
+  padding: 5px; }
+
+.btn--yellow-wrap--fill {
+  width: 75%;
+  margin: 0 auto; }
+
+.btn--yellow--fill {
+  color: #282828;
+  background-color: #ff9900;
+  border: 3px solid #ff9900; }
+
 /*media queries*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
@@ -383,10 +421,23 @@ a {
     width: 40%; }
   .btn--yellow-wrap {
     width: 30%;
-    margin: 20px auto 0; } }
-
-.sliders {
-  text-align: center; }
+    margin: 20px auto 0; }
+  .sliders {
+    text-align: center; }
+  .reviews__item {
+    width: 48%;
+    float: left; }
+    .reviews__item--first {
+      margin-right: 4%; }
+  .contacts__item {
+    width: 31.3%;
+    float: left;
+    margin-right: 3%; }
+    .contacts__item--last {
+      float: right;
+      margin-right: 0; }
+  .btn--yellow-wrap--fill {
+    width: 75%; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 959px) {
