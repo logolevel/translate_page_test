@@ -7,8 +7,6 @@
 	-webkit-box-sizing: border-box
 	-moz-box-sizing: border-box
 	box-sizing: border-box
-html
-	overflow-x: scroll
 body
 	background-color: #fff
 	color: $text-color
@@ -157,7 +155,7 @@ a
 .icon-arrow-right
 	display: block
 	font-size: 25px
-	color: 
+	color: $text-color
 	position: absolute
 	bottom: 40%
 .icon-arrow-left
@@ -170,6 +168,7 @@ a
 	height: 600px
 .title--price
 	color: #fff
+	margin-bottom: 50px
 	&:after
 		background-color: #fff
 .sliders__price-link
@@ -223,6 +222,23 @@ a
 	border-radius: 50%
 .price .owl-dots .active
 	background-color: #FFF
+.price .owl-carousel .owl-item
+	backface-visibility: visible
+.btn--yellow
+	color: #ffd700
+	border: 3px solid #ffd700
+.btn--yellow-wrap
+	margin-top: 20px
+.price .icon-arrow-left,
+.price .icon-arrow-right
+	font-size: 36px
+	color: #fff
+	position: absolute
+	bottom: 54%
+.price .icon-arrow-left
+	left: -10px
+.price .icon-arrow-right
+	right: -10px
 /*media queries*/
 @import "_media";
 		

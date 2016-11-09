@@ -41,8 +41,6 @@ if (window.innerWidth < 960) {
   $('.sliders').owlCarousel({
       loop:true,
       nav:true,
-      animateIn:'jello',
-      animateOut:'jello',
       margin:0,
       responsive:{
           0:{
@@ -51,7 +49,7 @@ if (window.innerWidth < 960) {
           580:{
               items:2
           },
-          768:{
+          960:{
               items:3
           }
       },
