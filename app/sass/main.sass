@@ -239,6 +239,56 @@ a
 	left: -10px
 .price .icon-arrow-right
 	right: -10px
+/*reviews*/
+.reviews
+	background-color: #dcdcdc
+	height: 1325px
+.reviews__item
+	width: 48%
+	float: left
+	&--first
+		margin-right: 4%
+	&-info
+		text-align: left
+		width: 220px
+		margin: 0 auto
+	&-info-img
+		float: left
+		margin-right: 15px
+	&-info-name
+		color: $main-color
+		font-size: 14px
+		float: left
+		margin-top: 12px
+		margin-bottom: 4px
+		width: 145px
+	&-info-right
+		float: left
+	&-title
+		color: $main-color
+		font-size: 20px
+		margin: 15px 0
+	&-paragraph
+		text-align: justify
+		font-size: 17px
+		line-height: 23px
+		&--center
+			text-align: center
+			margin-top: 20px
+
+/*like raiting*/
+.rating
+	padding: 0
+	margin: 0
+.rating li
+	cursor: pointer
+	display: inline-block
+	list-style-type: none
+	text-transform: none
+.rating.vote-cast .star.selected~.star, .rating:not(.vote-cast):hover .star:hover~.star, .star
+	color: $main-color
+.rating.vote-cast .star, .rating:hover .star
+	color: #ffd700
 /*media queries*/
 @import "_media";
 		

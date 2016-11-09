@@ -284,6 +284,61 @@ a {
 .price .icon-arrow-right {
   right: -10px; }
 
+/*reviews*/
+.reviews {
+  background-color: #dcdcdc;
+  height: 1325px; }
+
+.reviews__item {
+  width: 48%;
+  float: left; }
+  .reviews__item--first {
+    margin-right: 4%; }
+  .reviews__item-info {
+    text-align: left;
+    width: 220px;
+    margin: 0 auto; }
+  .reviews__item-info-img {
+    float: left;
+    margin-right: 15px; }
+  .reviews__item-info-name {
+    color: #2b569a;
+    font-size: 14px;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    width: 145px; }
+  .reviews__item-info-right {
+    float: left; }
+  .reviews__item-title {
+    color: #2b569a;
+    font-size: 20px;
+    margin: 15px 0; }
+  .reviews__item-paragraph {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 23px; }
+    .reviews__item-paragraph--center {
+      text-align: center;
+      margin-top: 20px; }
+
+/*like raiting*/
+.rating {
+  padding: 0;
+  margin: 0; }
+
+.rating li {
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  text-transform: none; }
+
+.rating.vote-cast .star.selected ~ .star, .rating:not(.vote-cast):hover .star:hover ~ .star, .star {
+  color: #2b569a; }
+
+.rating.vote-cast .star, .rating:hover .star {
+  color: #ffd700; }
+
 /*media queries*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */

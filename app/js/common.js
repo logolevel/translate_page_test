@@ -59,4 +59,15 @@ if (window.innerWidth < 960) {
 $('.owl-prev').addClass('icon-arrow-left');
 $('.owl-next').addClass('icon-arrow-right');
 
+/*like rating*/
+$('.like-rating ul li').on('click', function() {
+  var selectedCssClass = 'selected';
+  var $this = $(this);
+  $this.siblings('.' + selectedCssClass).removeClass(selectedCssClass);
+  $this
+    .addClass(selectedCssClass)
+    .parent().addClass('vote-cast');
+});
+
+
 });
