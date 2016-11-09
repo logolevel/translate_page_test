@@ -1,0 +1,228 @@
+@import "_variables";
+@import "_fonts";
+/*our*/
+*,
+*:before,
+*:after
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+html
+	overflow-x: scroll
+body
+	background-color: #fff
+	color: $text-color
+	font-family: $text-font
+a
+	color: #fff
+	text-decoration: none
+	font-size: 14px
+	transition: all 0.2s ease
+	&:hover
+		opacity: 0.7
+.clearfix:after
+	content: ''
+	display: block
+	clear: both
+.container
+	min-width: 320px
+	margin: 0 auto
+	padding: 0 15px
+	text-align: center
+.title
+	font-size: 27px
+	font-family: $title-font
+	padding-top: 55px
+	color: $main-color
+	&:after
+		content: ''
+		display: block
+		margin: 10px auto 20px
+		width: 75px
+		height: 2px
+		background-color: $main-color
+/*services*/
+.container--blocks
+	padding: 0
+.icon
+	display: block
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	margin: auto
+.services
+	background-color: #d7d7d7
+	padding-bottom: 40px
+	&__text
+		z-index: 1
+		position: relative
+		font-size: 20px
+		padding: 0 5px
+	&__link
+		display: table
+		width: 100%
+		margin-bottom: 15px
+		float: left
+		&-wrap
+			display: table-cell
+			vertical-align: middle
+			height: 150px
+			background-color: $light-main-color
+			&-content
+				position: relative
+			&--color
+				background-color: $main-color
+		&--tech
+			margin-top: 30px
+	&__map
+		float: left
+		width: 100%
+		margin-top: 20px
+		&-wrap
+			max-width: 327px
+			margin: 0 auto
+			img
+				width: 100%
+				height: auto
+		&-title
+			color: $main-color
+			text-transform: uppercase
+			font-size: 18px
+			font-family: $title-font
+			font-weight: bold
+			margin-bottom: 5px
+.icon-map
+	display: block
+.services-blocks
+	margin-top: 35px
+.btn
+	border: 3px solid $main-color
+	padding: 15px
+	display: inline-block
+	text-transform: uppercase
+	font-family: $title-font
+	font-weight: bold
+	color: $main-color
+	font-size: 18px
+	width: 100%
+	float: left
+	margin-top: 15px
+	&--fill
+		float: right
+		width: 100%
+		margin-bottom: 15px
+		background-color: $accent-color
+		border: 3px solid transparent
+		color: $text-color
+/*slider*/
+.services__sldr
+	float: left
+.services__sldr	.owl-dots
+	text-align: center
+	margin-top: -40px
+	z-index: 1
+	position: relative
+.services__sldr	.owl-dot
+	display: inline-block
+	width: 10px
+	height: 10px
+	margin: 5px
+	margin-top: -40px
+	border: 1px solid #fff
+	border-radius: 50%
+.services__sldr	.owl-dots .active
+	background-color: #FFF
+
+/*clients*/
+.clients
+	height: 305px
+.sliders
+	position: relative
+.sliders__item
+	height: 130px
+	position: relative
+.sliders__item img
+	max-width: 198px
+	position: absolute
+	margin: auto
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+.sliders .owl-nav
+	display: block
+.icon-arrow-left,
+.icon-arrow-right
+	display: block
+	font-size: 25px
+	color: 
+	position: absolute
+	bottom: 40%
+.icon-arrow-left
+	left: 0
+.icon-arrow-right
+	right: 0
+/*price*/
+.price
+	background-color: $main-color
+	height: 600px
+.title--price
+	color: #fff
+	&:after
+		background-color: #fff
+.sliders__price-link
+	color: $main-color
+	font-size: 24px
+	font-family: $title-font
+	font-weight: bold
+	&-bg
+		background-color: #ffd700
+		max-width: 215px
+		height: 265px
+		margin: 0 auto
+		padding: 40px 0
+	&-flag
+		background-color: #1e3a63
+		font-size: 34px
+		font-family: $bold-font
+		color: #fff
+		padding: 25px 0
+		position: relative
+		margin: 35px 0 25px
+		&:before,
+		&:after
+			content: ''
+			display: block
+			background-image: url(../sprites/sprite.png)
+			width: 27px
+			height: 95px
+			position: absolute		
+		&:before
+			background-position: -327px -201px
+			top: -10px
+			left: -27px
+		&:after
+			background-position: -354px -201px
+			bottom: -10px
+			right: -27px
+.price .sliders img
+	display: none
+.price .owl-dots
+	text-align: center
+	margin-top: 40px
+	z-index: 1
+	position: relative
+.price .owl-dot
+	display: inline-block
+	width: 10px
+	height: 10px
+	margin: 5px
+	border: 1px solid #fff
+	border-radius: 50%
+.price .owl-dots .active
+	background-color: #FFF
+/*media queries*/
+@import "_media";
+		

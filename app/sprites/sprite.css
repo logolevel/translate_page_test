@@ -1,0 +1,102 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-cheking {
+  background-image: url(../sprites/sprite.png);
+  background-position: -327px -100px;
+  width: 100px;
+  height: 101px;
+}
+.icon-feather {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px -216px;
+  width: 111px;
+  height: 98px;
+}
+.icon-left-corner-flag {
+  background-image: url(../sprites/sprite.png);
+  background-position: -327px -201px;
+  width: 27px;
+  height: 95px;
+}
+.icon-libra {
+  background-image: url(../sprites/sprite.png);
+  background-position: -110px -110px;
+  width: 109px;
+  height: 102px;
+}
+.icon-map {
+  background-image: url(../sprites/sprite.png);
+  background-position: -381px -225px;
+  width: 17px;
+  height: 24px;
+}
+.icon-opinion {
+  background-image: url(../sprites/sprite.png);
+  background-position: -222px -105px;
+  width: 104px;
+  height: 104px;
+}
+.icon-pen {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px 0px;
+  width: 110px;
+  height: 110px;
+}
+.icon-phone {
+  background-image: url(../sprites/sprite.png);
+  background-position: -381px -201px;
+  width: 24px;
+  height: 24px;
+}
+.icon-repair {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px -110px;
+  width: 110px;
+  height: 106px;
+}
+.icon-right-corner-flag {
+  background-image: url(../sprites/sprite.png);
+  background-position: -354px -201px;
+  width: 27px;
+  height: 95px;
+}
+.icon-timetable {
+  background-image: url(../sprites/sprite.png);
+  background-position: -327px 0px;
+  width: 107px;
+  height: 100px;
+}
+.icon-web {
+  background-image: url(../sprites/sprite.png);
+  background-position: -222px 0px;
+  width: 105px;
+  height: 105px;
+}
+.icon-wings {
+  background-image: url(../sprites/sprite.png);
+  background-position: -110px 0px;
+  width: 112px;
+  height: 107px;
+}
+.icon-world {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px -201px;
+  width: 23px;
+  height: 23px;
+}
